@@ -1,0 +1,10 @@
+.register.register-with-news-feed .news-feed{
+	position: fixed;left: 0;right: 500px;top: 0;bottom: 0;
+  overflow: hidden; /* 오버플로우 히든이 있어야 우측 콘텐츠가 더 중요시 된다.*/
+}
+.news-image img{position: absolute;	height: 100%;}
+.news-caption{background: rgba(0,0,0,.7);	color: white;
+	position: absolute; bottom: 0;left: 0;right: 0;padding: 30px 60px;}
+.news-caption p{	color: #999;}
+.right-content{  float: right;width: 500px;padding: 20px 60px 20px 60px;}
+h1.register-header small{margin-top: 10px;margin-bottom: 10px;display: block;}
